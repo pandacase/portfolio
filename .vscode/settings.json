@@ -1,5 +1,5 @@
 {
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -7,8 +7,8 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+  "editor.codeActionsOnSave": { // On Save
+    "source.fixAll.eslint": "explicit" // 启用 ESLint 自动修复
   },
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on" // 在视觉上进行自动换行
 }
